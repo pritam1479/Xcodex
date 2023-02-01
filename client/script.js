@@ -86,7 +86,7 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
 
-    const resp = await fetch('http://localhost:5000', {
+    const resp = await fetch('https://xcodex.onrender.com', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
